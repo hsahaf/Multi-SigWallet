@@ -19,12 +19,3 @@ Submit Transaction – An owner submits a transaction (recipient, value, and opt
 Confirm Transaction – Other owners confirm the transaction.
 
 Execute Transaction – Once the required confirmations are collected, any owner can execute it.
-
-### Events Emitted
-SubmitTransaction
-ConfirmTransaction
-RevokeConfirmation
-ExecuteTransaction
-
-
-
