@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+
+fs_permissions = [{ access = "read", path = "./"}]
+
+[rpc_endpoints]
+sepolia = "${https://ethereum-sepolia-rpc.publicnode.com/}"
+
+[etherscan]
+sepolia = {key = "${X129AZR8XDDZSPXEU779G6ESCVFESVFR23}" }
+
