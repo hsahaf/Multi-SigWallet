@@ -13,8 +13,11 @@ SPDX-License-Identifier: GPL-3.0
 
 ### How It Works
 Deployment – Specify an array of owners and the number of required approvals.
+
 Submit Transaction – An owner submits a transaction (recipient, value, and optional data).
+
 Confirm Transaction – Other owners confirm the transaction.
+
 Execute Transaction – Once the required confirmations are collected, any owner can execute it.
 
 ### Events Emitted
